@@ -2,7 +2,7 @@ import {  StyleSheet  } from "react-native";
 
 export const styles = StyleSheet.create({
     constainer: {
-      backgroundColor: 'black',
+      backgroundColor: 'white',
       flex: 1,
       padding: 25
     },
@@ -11,6 +11,13 @@ export const styles = StyleSheet.create({
     },
     eventDate: {
       color: 'gray', fontSize: 14, fontWeight:'normal', marginTop: 2
+    },
+    inputStyle: {
+      backgroundColor: '#1F1E25' ,
+      height: 56,
+      borderRadius: 5,
+      color: 'white',
+      padding: 10
     }
   })
   
